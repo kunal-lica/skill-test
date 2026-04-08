@@ -1,332 +1,361 @@
 
 
-# Studio Ghibli Theme Park Aesthetic
+# Studio Ghibli Theme Park Architectural Visualization
 
-> Enables creation of designs, illustrations, and UI experiences that capture the whimsical, warm, nature-integrated architectural aesthetic of Studio Ghibli's fantastical worlds brought to life in physical spaces.
+> Enables AI agents to generate designs, illustrations, and UI experiences that capture the whimsical, handcrafted architectural aesthetic of Studio Ghibli theme park environments — blending European fantasy architecture with Japanese pastoral sensibility.
 
 ## When to Use This Skill
 
-- When a user requests designs inspired by Studio Ghibli, Hayao Miyazaki, or Japanese fantasy/whimsical aesthetics
-- When building UI/UX for projects related to theme parks, fantasy destinations, eco-tourism, nature retreats, or storybook-inspired experiences
-- When creating illustrations, landing pages, or marketing materials that need a warm, handcrafted, nature-harmonious visual identity with a sense of magical realism
+- When a user requests designs, illustrations, or UI themes inspired by Studio Ghibli, fantasy villages, whimsical architecture, or fairy-tale environments
+- When building landing pages, game UIs, or immersive web experiences for theme parks, fantasy destinations, children's entertainment, or travel/tourism in a storybook style
+- When creating concept art direction, mood boards, or style guides that evoke a warm, handcrafted, nostalgic fantasy world rooted in naturalism
 
 ## Core Principles
 
-### 1. Nature-Architecture Symbiosis
-Buildings do not dominate the landscape — they emerge from it. Structures appear as if they grew organically alongside the surrounding vegetation. Rooftops are partially covered in moss or greenery. Walls curve gently rather than standing rigidly perpendicular. The boundary between built environment and natural environment is deliberately blurred.
+### 1. Organic Asymmetry in Architecture
+Nothing is perfectly geometric. Structures appear hand-built with slight irregularities — rooflines that bow and undulate, walls that lean subtly, windows of varying sizes grouped organically. Buildings look as though they grew over decades through additions rather than being designed all at once. Roof pitches vary between 45°–65° and feature exaggerated curves at the eaves. Towers are cylindrical or conical with tapered tops, never sharp or aggressive.
 
-**Concrete application:** When designing cards, containers, or layout blocks, use organic shapes, rounded edges, and earthy background colors that feel like they belong to the surrounding whitespace. Avoid hard grid lines that create stark separation.
+### 2. Warm Earth-Tone Dominant Palette
+The color world is grounded in sun-warmed earth tones with strategic accent colors drawn from nature. The palette reads as if viewed through golden-hour light even in daytime scenes. Colors appear slightly desaturated, as if painted in gouache or watercolor rather than digitally rendered.
 
-### 2. European Cottage Meets Japanese Sensitivity
-The architectural style blends Northern European countryside elements (steep pitched roofs, half-timbered facades, stone foundations, dormer windows) with a Japanese sensibility for negative space, subtlety, and reverence for natural materials. Think Alsatian village filtered through a Miyazaki storyboard.
+### 3. Lush Greenery Integration
+Architecture is never isolated from nature. Vegetation climbs walls, drapes over balconies, fills every gap between structures, and softens every hard edge. Grass is deep and textured, not flat. Trees are full-canopy deciduous with visible individual leaf clusters. Plantings appear semi-wild — cultivated but not manicured. The ratio of green/natural elements to built elements is approximately 40-60% green to 40-60% structure in any given composition.
 
-**Concrete application:** Typography and UI elements should pair serif or hand-drawn typefaces (European storybook feel) with generous whitespace and restrained ornamentation (Japanese minimalism).
+### 4. Storybook Scale and Proportion
+Human-scale details (doors, windows, railings) are slightly exaggerated in proportion — doors are taller and narrower, windows are more deeply recessed, chimneys are oversized. This creates a sense of childlike wonder, as if the viewer is slightly smaller than the world around them. Multi-story structures (3-5 floors) are common, with each floor slightly different in style, suggesting historical layering.
 
-### 3. Warm Nostalgic Color Palette
-The palette is grounded in the golden-hour warmth of late afternoon sunlight filtering through foliage. Colors are never fully saturated — they feel sun-faded, weathered, and lived-in, as if the entire scene has been gently aged by decades of gentle rain and warm light.
+### 5. Handcrafted Material Honesty
+Every surface communicates its material: plaster is textured with visible brush or trowel marks, timber framing is rough-hewn with visible grain, stone is irregular and mortared, roof tiles are individually placed with slight variation in color. Metal elements (railings, lanterns, weathervanes) appear wrought by hand — ornate but not machine-perfect. No material appears factory-produced or synthetic.
 
-### 4. Handcrafted Imperfection
-Nothing looks mass-produced or digitally perfect. Surfaces show texture — wood grain, rough plaster, uneven stonework, hand-laid tiles. Lines are slightly irregular. This principle extends to typography (slightly rough or hand-drawn letterforms) and illustration (visible brushstroke quality, watercolor-like washes).
+### 6. Layered Depth Composition
+Scenes are composed in clear foreground-midground-background layers with atmospheric perspective. Foreground elements frame the scene (often vegetation or architectural details). The midground contains the primary subject. Background fades into soft sky or distant hills. This creates a storybook diorama effect.
 
-### 5. Layered Depth Through Atmospheric Perspective
-Scenes create depth using overlapping layers of foliage, architecture, and sky, with each successive layer becoming slightly more muted and blue-shifted. Foreground elements are rich and detailed; background elements are softer, hazier, and lighter. This creates a dreamy, storybook diorama effect.
-
-### 6. Lush Verdant Abundance
-Vegetation is not sparse or decorative — it is abundant, varied, and dominant. Multiple shades of green coexist: deep forest greens, bright spring greens, yellow-greens catching sunlight, and blue-greens in shadow. Plants spill over edges, climb walls, and fill every available crevice.
-
-### 7. Human Scale and Intimacy
-Everything feels approachable and intimate rather than monumental. Doorways are slightly small. Paths are narrow and winding. Windows are warmly lit. The viewer should feel invited to step into the scene, not awed by its grandeur. The design evokes comfort, safety, and discovery.
-
-### 8. Storybook Framing
-Compositions are framed as if the viewer is discovering a hidden place — peering through an archway, rounding a corner, or looking up from a garden path. There is always a sense of narrative: something just happened or is about to happen. Static compositions are avoided in favor of implied motion and story.
+### 7. Golden Atmospheric Light
+Lighting is perpetually warm, evoking late morning or golden hour. Shadows are soft and slightly blue-tinted (never harsh black). There is a subtle ambient glow to the entire scene. Light appears to wrap around objects rather than creating sharp contrast. The sky is typically a gentle gradient from warm blue to soft white near the horizon.
 
 ## Detailed Specifications
 
 ### Visual Language / Style Tokens
 
-#### Color Palette
+**Primary Color Palette:**
+| Role | Color | Hex | Usage |
+|------|-------|-----|-------|
+| Warm Cream (walls) | Pale warm beige | `#F2E6D0` | Primary building surfaces, backgrounds |
+| Timber Brown | Rich warm brown | `#6B4226` | Exposed timber framing, wood accents |
+| Roof Terracotta | Muted red-brown | `#A0522D` | Roof tiles, brick details |
+| Roof Slate | Warm dark grey | `#5C5C52` | Secondary roofing, stone bases |
+| Deep Forest Green | Rich muted green | `#3A5F0B` | Dense foliage, hedges |
+| Meadow Green | Warm mid green | `#6B8E23` | Grass, lighter vegetation |
+| Leaf Green | Bright warm green | `#8FBC3B` | Sunlit foliage highlights |
+| Sky Blue | Soft warm blue | `#87AECC` | Sky, water reflections |
+| Sky White | Warm white | `#F0EDE4` | Horizon, clouds, light sources |
+| Shadow Blue | Muted cool blue | `#7A8B99` | Shadows, depth |
+| Accent Teal | Muted blue-green | `#4A7C72` | Patina on copper, special details |
+| Accent Red | Warm brick red | `#8B3A3A` | Shutters, doors, small accents |
+| Accent Gold | Warm ochre | `#C5A23E` | Ornamental details, weathervanes |
 
-| Role | Name | Hex | Usage |
-|------|------|-----|-------|
-| Primary Background | Warm Parchment | `#F5EDD6` | Page backgrounds, large surfaces |
-| Secondary Background | Soft Cream | `#EDE4CC` | Card backgrounds, content areas |
-| Primary Green (Light) | Spring Canopy | `#7DB356` | Highlighted vegetation, accent buttons |
-| Primary Green (Mid) | Forest Heart | `#4A7A3D` | Primary green elements, icons |
-| Primary Green (Dark) | Deep Thicket | `#2D5A28` | Dark foliage, shadow areas in illustrations |
-| Green (Yellow tint) | Sunlit Leaf | `#A8C44A` | Foliage catching light, hover states |
-| Green (Blue tint) | Shaded Moss | `#3B6B4A` | Shaded vegetation, secondary accents |
-| Warm Brown (Light) | Aged Timber | `#C4A265` | Wood elements, warm accents, borders |
-| Warm Brown (Mid) | Cottage Beam | `#8B6D3F` | Headers, primary text on light backgrounds |
-| Warm Brown (Dark) | Weathered Oak | `#5C4425` | Body text, high-contrast elements |
-| Stone Gray | Old Foundation | `#9A9484` | Muted text, dividers, stone textures |
-| Roof Warm | Terracotta Slate | `#B87A54` | Accent elements, warm highlights |
-| Sky Blue (Pale) | Afternoon Haze | `#C8D8E8` | Distant backgrounds, atmospheric layers |
-| Sky Blue (Mid) | Ghibli Sky | `#88B4D4` | Sky elements, links, interactive states |
-| Accent Red | Lantern Red | `#C45B4A` | Small accents only — a door, a flag, a CTA |
-| Highlight Gold | Golden Hour | `#E8C547` | Sunlight effects, important callouts |
+**Secondary/Accent Colors (used sparingly):**
+- Window pane reflection: `#D4E4F0` (cool pale blue)
+- Flower accents: `#D4698A` (muted rose), `#E8C84A` (warm yellow), `#7B68AE` (muted lavender)
+- Smoke/mist: `#D8D4CC` at 40-60% opacity
 
-#### Typography
+**Typography (for UI applications):**
+- Primary Headings: Serif with slight hand-drawn quality — use `Playfair Display`, `Cormorant Garamond`, or `EB Garamond` at weight 600-700
+- Body Text: Warm humanist sans-serif — use `Nunito`, `Quicksand`, or `Lato` at weight 400
+- Accent/Display: Hand-lettered or calligraphic — use `Caveat`, `Amatic SC`, or `Patrick Hand`
+- Base font size: 16px, line-height 1.6, letter-spacing +0.02em on body
+- Heading scale: 2.618 (golden ratio) — h1: 42px, h2: 26px, h3: 20px
 
-| Role | Font Style | Fallback | Weight | Size Scale |
-|------|-----------|----------|--------|------------|
-| Display / H1 | Hand-drawn serif (e.g., `Playfair Display`, `Cormorant Garamond`) | `Georgia, serif` | 600–700 | 36–48px |
-| H2 | Same as Display | `Georgia, serif` | 500–600 | 28–32px |
-| H3 | Rounded humanist sans (e.g., `Nunito`, `Quicksand`) | `Verdana, sans-serif` | 600 | 20–24px |
-| Body | Rounded humanist sans (e.g., `Nunito`, `Source Sans Pro`) | `Verdana, sans-serif` | 400 | 16–18px |
-| Caption / Small | Same as Body | `Verdana, sans-serif` | 400 | 12–14px |
-| Decorative / Logo | Script or storybook face (e.g., `Caveat`, `Patrick Hand`) | `cursive` | 400–700 | Variable |
+**Spacing Scale (8px base):**
+- xs: 4px
+- sm: 8px
+- md: 16px
+- lg: 24px
+- xl: 40px
+- xxl: 64px
+- Section padding: 64px–96px vertical
 
-**Line height:** 1.6 for body text, 1.2–1.3 for headings.
-**Letter spacing:** +0.02em for body, -0.01em for display headings.
+**Border and Shape Tokens:**
+- Border radius (small elements — buttons, inputs): 12px
+- Border radius (cards, panels): 20px–24px
+- Border radius (large containers, modals): 32px
+- No sharp corners anywhere in the design system
+- Borders: 1px solid `#D4C9B8` (warm muted line) — never stark grey or black
+- Prefer irregular/organic clip-paths or SVG masks over standard rectangles for image frames
 
-#### Spacing Scale
+**Shadows:**
+- Card shadow: `0 4px 20px rgba(107, 66, 38, 0.12)`
+- Elevated shadow: `0 8px 32px rgba(107, 66, 38, 0.18)`
+- No sharp drop shadows; all shadows should feel like ambient occlusion
+- Shadow color always warm-tinted, never pure black
 
-Base unit: `8px`
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| `space-xs` | 4px | Tight inline gaps |
-| `space-sm` | 8px | Icon-to-label gaps, tight padding |
-| `space-md` | 16px | Standard inner padding |
-| `space-lg` | 24px | Section padding, card inner spacing |
-| `space-xl` | 32px | Between content sections |
-| `space-2xl` | 48px | Major section breaks |
-| `space-3xl` | 64px | Hero/viewport-level spacing |
-
-#### Border & Shape
-
-| Token | Value | Notes |
-|-------|-------|-------|
-| `radius-sm` | 8px | Buttons, small inputs |
-| `radius-md` | 16px | Cards, image containers |
-| `radius-lg` | 24px | Modal dialogs, featured cards |
-| `radius-xl` | 40px | Hero image masks, decorative panels |
-| `radius-organic` | `50% 45% 55% 48% / 48% 52% 46% 54%` | Blob shapes for decorative elements |
-| `border-width` | 1.5–2px | Slightly thicker than default, hand-drawn feel |
-| `border-style` | Slightly irregular (use SVG filter or wavy border if possible) | Avoid perfectly straight lines |
-
-#### Shadows
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| `shadow-soft` | `0 4px 16px rgba(92, 68, 37, 0.08)` | Subtle card elevation |
-| `shadow-medium` | `0 8px 32px rgba(92, 68, 37, 0.12)` | Elevated cards, modals |
-| `shadow-warm-glow` | `0 0 24px rgba(232, 197, 71, 0.15)` | Warm light emission effect |
-| `shadow-inner-vignette` | `inset 0 0 60px rgba(92, 68, 37, 0.06)` | Aged/warm container interiors |
-
-#### Texture & Effects
-
-- Apply a subtle paper/parchment texture overlay on backgrounds at 3–6% opacity
-- Use CSS `backdrop-filter: blur(2px)` on overlapping translucent elements to mimic atmospheric haze
-- Illustrations should include a subtle grain or noise texture (0.5–2% monochromatic noise)
-- Gradients should be warm-to-warm (cream to pale gold) or green-to-blue-green — never cold-to-cold
+**Texture and Surface:**
+- Backgrounds should have subtle paper or canvas texture (noise at 2-4% opacity, warm-tinted)
+- Illustration surfaces suggest brushstroke — slight grain, not photorealistic
+- Gradients are always soft and warm: vertical from `#87AECC` to `#F0EDE4` for skies
 
 ### Component Patterns
 
-#### Card Component (Ghibli Style)
+**Card Component (e.g., destination card):**
 ```
-┌─────────────────────────────────┐
-│  ┌───────────────────────────┐  │  ← radius-lg on outer, radius-md on image
-│  │                           │  │
-│  │    [Image with soft       │  │  ← Image has a 2px warm-tinted border
-│  │     vignette edges]       │  │    (rgba of Aged Timber at 20%)
-│  │                           │  │
-│  └───────────────────────────┘  │
-│                                 │
-│  ✦ Category Label               │  ← Small caps, Forest Heart color, 12px
-│                                 │
-│  Headline in Serif Font         │  ← Cottage Beam color, 22px, weight 600
-│                                 │
-│  Body text in humanist sans,    │  ← Weathered Oak, 16px, weight 400
-│  warm and inviting tone...      │
-│                                 │
-│  ┌─────────────┐               │
-│  │  Explore →  │               │  ← radius-sm, Forest Heart bg, cream text
-│  └─────────────┘               │    Hover: Spring Canopy bg, slight scale(1.02)
-│                                 │
-└─────────────────────────────────┘
-Background: Soft Cream
-Shadow: shadow-soft
-Border: none (shadow provides separation)
+- Container: 24px border-radius, warm cream background (#F2E6D0)
+- Image area: fills top, masked with slight arch or irregular shape at bottom edge
+- Content padding: 24px
+- Title: Serif, 20px, weight 700, color #3D2B1F
+- Description: Humanist sans, 15px, weight 400, color #6B5D4F, line-height 1.6
+- CTA: Text link with arrow →, color #4A7C72, no underline, hover adds underline
+- Shadow: 0 4px 20px rgba(107, 66, 38, 0.12)
+- Hover: translateY(-4px), shadow expands to 0 8px 32px rgba(107, 66, 38, 0.18)
+- Transition: all 0.3s ease
 ```
 
-#### Hero Section Pattern
+**Navigation Bar:**
 ```
-┌─────────────────────────────────────────────┐
-│                                             │
-│   [Full-width illustration/photo]           │  ← Soft vignette overlay at edges
-│                                             │    Bottom: gradient to page bg
-│      ┌──────────────────────┐               │
-│      │                      │               │  ← Frosted panel: bg white @ 70%,
-│      │  Decorative Title    │               │    backdrop-blur, radius-xl,
-│      │  in Script Font      │               │    shadow-medium
-│      │                      │               │
-│      │  Subtitle in serif   │               │
-│      │                      │               │
-│      └──────────────────────┘               │
-│                                             │
-│   🌿 Decorative botanical divider 🌿        │  ← SVG vine/leaf ornament
-│                                             │
-└─────────────────────────────────────────────┘
+- Semi-transparent warm cream: rgba(242, 230, 208, 0.9) with backdrop-blur: 12px
+- Height: 72px
+- Logo: hand-lettered or serif wordmark, positioned left
+- Nav links: humanist sans, 14px, weight 600, uppercase, letter-spacing 0.08em
+- Active state: underline in accent teal (#4A7C72), 2px, offset 6px below text
+- Mobile: slide-in drawer from right with warm cream background, full-height
 ```
 
-#### Navigation Pattern
-- Horizontal nav with generous spacing (space-xl between items)
-- Nav items in humanist sans, weight 500, Cottage Beam color
-- Active state: underline using a hand-drawn SVG wavy line in Forest Heart
-- Hover: color transitions to Spring Canopy over 300ms ease
-- Mobile: slide-in drawer from left with parchment background and botanical ornament at top
+**Hero Section:**
+```
+- Full-width illustration or image with painterly quality
+- Overlaid text positioned in lower-third or center
+- Text has subtle warm text-shadow: 0 2px 8px rgba(61, 43, 31, 0.3)
+- Optional: animated floating elements (leaves, clouds) using gentle CSS keyframes
+- Height: 80vh–100vh
+- Scroll indicator: hand-drawn arrow SVG, gentle bounce animation
+```
 
-#### Button Styles
+**Button:**
+```
+- Primary: background #4A7C72, color #F2E6D0, border-radius 12px
+- Padding: 12px 28px, font-size 15px, weight 600
+- Hover: background #3A6B62, slight scale(1.02)
+- Secondary: background transparent, border 2px solid #6B4226, color #6B4226
+- Hover: background rgba(107, 66, 38, 0.08)
+- All buttons have transition: all 0.25s ease
+- Optional: tiny decorative SVG flourish beside text (leaf, star, swirl)
+```
 
-| Variant | Background | Text | Border | Hover |
-|---------|-----------|------|--------|-------|
-| Primary | `#4A7A3D` | `#F5EDD6` | none | `#7DB356`, `scale(1.02)`, `shadow-warm-glow` |
-| Secondary | transparent | `#4A7A3D` | 2px `#4A7A3D` | bg `rgba(74,122,61,0.08)` |
-| Accent | `#C45B4A` | `#F5EDD6` | none | `#D47264`, `scale(1.02)` |
-| Ghost | transparent | `#8B6D3F` | none | underline with wavy SVG |
+**Divider/Section Break:**
+```
+- Never a plain <hr>
+- Use SVG ornamental divider: scrollwork, vine, or leaf motif
+- Color: #C5A23E at 40% opacity, or #D4C9B8
+- Width: 120px–200px, centered
+- Margin: 40px auto
+```
 
-All buttons: `radius-sm`, `padding: 12px 24px`, `font-weight: 600`, `transition: all 0.3s ease`
+### Architectural Detail Reference (for illustrations/visual content)
 
-### Illustration & Image Treatment
+**Roofing:** Overlapping clay or slate tiles, slightly varied in color (±10% lightness variation tile-to-tile). Ridge tiles are rounded. Dormers and turrets common. Moss or lichen patches on north-facing surfaces.
 
-- Photos should be color-graded warm: increase warmth by 10–15%, reduce highlights slightly, lift shadows
-- Apply a soft vignette (darken edges by 8–12%)
-- If using AI-generated illustrations, prompt for: "watercolor style, soft edges, warm lighting, Ghibli-inspired, painterly, visible brushstrokes, nostalgic atmosphere"
-- Images should bleed into backgrounds using gradient masks rather than hard rectangular crops
-- Decorative elements (dividers, ornaments) should use botanical/vine motifs rendered in a hand-drawn line style
+**Walls:** Combination of exposed stone (ground floor), plastered upper floors (cream/warm white), and half-timbered framing (dark brown timber with cream infill). Walls show age — subtle cracks, slight discoloration, water staining below windowsills.
+
+**Windows:** Multi-pane with leading (6-12 panes per window). Deep-set in thick walls (visible depth of 8-12 inches). Shutters in muted colors (forest green, brick red, slate blue). Some windows are arched at top.
+
+**Doors:** Arched or pointed-arch tops. Heavy wood planking with visible iron hardware (strap hinges, ring pulls). Often recessed within a stone or plastered archway.
+
+**Exterior Details:** Wrought iron lanterns, flower boxes on windowsills (geraniums, trailing ivy), hanging shop signs (hand-painted on wood), cobblestone or flagstone paths, wooden barrels and crates as set dressing, weathervanes and chimney pots.
 
 ### Do's and Don'ts
 
 **Do:**
-- Use organic, slightly irregular shapes instead of perfect geometric forms
-- Layer multiple shades of green abundantly in any nature-related imagery
-- Create warm, golden lighting effects that suggest late afternoon sun
-- Use generous whitespace that feels like breathing room in a garden
-- Include small, delightful details — a tiny bird, a leaf accent, a curl of smoke — that reward close inspection
-- Transition colors gradually using warm gradients (never abrupt color changes)
-- Make interactive elements feel tactile: slight scale on hover (1.01–1.03), warm shadow bloom
-- Use serif fonts for headings to evoke storybook heritage
-- Round all corners — nothing should feel sharp or angular
-- Add depth through layered elements with subtle parallax or overlapping composition
+- Use warm, golden lighting in all compositions — even overcast scenes should feel cozy, not cold
+- Include at least 3 types of vegetation in any scene (ground cover, climbing plants, trees/shrubs)
+- Layer textures: paper grain on backgrounds, brush-like rendering on illustrations, subtle noise on solid colors
+- Make every structure look lived-in and loved — slight weathering, patina, personal touches
+- Use gentle curves and organic shapes in layout and illustration — arches, rounded forms, flowing lines
+- Include small delightful details that reward close inspection (a cat in a window, a bird on a chimney, a tiny garden)
+- Create visual hierarchy through scale and warmth rather than contrast and bold color
+- Apply atmospheric perspective in layered scenes (distant elements are lighter, bluer, softer)
 
 **Don't:**
-- Use stark white (`#FFFFFF`) as a background — always warm it to at least `#F8F4E8`
-- Use pure black (`#000000`) for text — darkest should be Weathered Oak (`#5C4425`) or similar warm dark
-- Apply flat, uniform colors without texture or variation
-- Use neon, electric, or high-saturation accent colors
-- Create sharp, angular geometric layouts or rigid grid systems
-- Use cold blue-gray shadows — all shadows should have warm undertones
-- Include modern/tech-forward UI patterns (glassmorphism with blue tint, sharp gradients, pill-shaped tags in bright colors)
-- Use stock photography with cool/clinical lighting
-- Over-clutter — Ghibli aesthetic is lush but composed, never chaotic
-- Use thin, hairline fonts or weights below 400 for body text
+- Use pure black (`#000000`) anywhere — darkest value should be around `#2D2118`
+- Use pure white (`#FFFFFF`) — lightest value should be around `#FAF7F2`
+- Apply hard geometric shapes, sharp corners, or grid-perfect alignment — everything should feel organic
+- Use neon, saturated, or cool-dominant color schemes
+- Create flat, textureless surfaces — every surface needs material quality
+- Include modern/industrial materials: concrete, steel, glass curtain walls, plastic
+- Use aggressive typography: ultra-bold weights, tight tracking, all-caps body text
+- Apply stark, high-contrast lighting with hard shadows
+- Make scenes feel empty or sterile — the world should feel populated, even without visible people
+- Use stock photography aesthetic — everything should look illustrated, painted, or artfully crafted
 
 ## Examples
 
-### Example 1: Travel Landing Page
+### Example 1: Fantasy Village Landing Page
 
-**Generic input:** "Create a landing page for a nature retreat center"
+**Generic input:** "Create a landing page for a fantasy-themed tourist attraction"
 
-**Ghibli-styled output:**
-- **Hero:** Full-bleed watercolor-style illustration of a cottage nestled in rolling green hills, golden sunlight streaming through trees. Overlaid frosted panel with script title "Whispering Pines Retreat" in `Caveat` at 48px, subtitle in `Cormorant Garamond` at 20px, warm cream text.
-- **Background:** `#F5EDD6` with 4% paper texture overlay
-- **Section dividers:** SVG hand-drawn vine ornaments in `#4A7A3D` at 40% opacity
-- **Feature cards:** Three cards with `radius-lg`, `shadow-soft`, `Soft Cream` backgrounds. Each card has a watercolor icon (a tree, a stream, a candle) instead of a flat vector icon. Headlines in `Playfair Display` 600 weight, body in `Nunito` 400.
-- **CTA button:** "Begin Your Journey →" in Primary green button style, with a tiny leaf SVG before the arrow
-- **Footer:** Deep Thicket background (`#2D5A28`) with cream text, botanical border illustration along the top edge
+**Styled output applying this skill:**
+```
+- Hero: Full-bleed illustration of a hilltop village at golden hour, rendered in gouache-style.
+  Warm sky gradient (#87AECC → #F0EDE4 → #F2D9A0 near horizon). Village features 
+  clustered buildings with terracotta and slate roofs, half-timber facades, a central 
+  clock tower with conical copper-patina roof (#4A7C72). Foreground: wildflower meadow 
+  with swaying grass. Midground: cobblestone path winding uphill between buildings. 
+  Background: rolling green hills fading into atmospheric haze.
 
-### Example 2: Dashboard UI for a Garden Management App
+- Heading overlay: "Welcome to Meadowbrook" in EB Garamond, 48px, weight 700, 
+  color #FAF7F2 with text-shadow: 0 3px 12px rgba(45, 33, 24, 0.4).
+  Subhead in Nunito, 18px, weight 400: "Where every path leads to wonder"
 
-**Generic input:** "Design a dashboard for tracking plant growth"
+- Section below: 3 cards in a row (responsive to single column on mobile)
+  Each card: 24px radius, #F2E6D0 background, arch-shaped image mask at top,
+  hand-drawn section divider between image and text. Card titles in Cormorant 
+  Garamond. Subtle vine SVG ornament in corners.
 
-**Ghibli-styled output:**
-- **Sidebar:** Warm Parchment background with hand-drawn botanical icon set (leaf for Plants, water droplet for Watering, sun for Light Tracking). Active item has a soft Spring Canopy background wash with `radius-md`.
-- **Main content area:** Soft Cream background. Stats displayed in rounded cards (`radius-lg`) with inner vignette shadow. Numbers in `Cormorant Garamond` at 36px, labels in `Nunito` 14px.
-- **Charts:** Line charts use organic, slightly curved (bezier) lines instead of sharp angles. Chart colors use the green palette (Spring Canopy, Forest Heart, Shaded Moss). Grid lines are `#9A9484` at 15% opacity — barely visible.
-- **Plant cards:** Each plant has a watercolor-style avatar, name in serif, and a subtle progress bar with `radius-sm` using a gradient from Shaded Moss to Sunlit Leaf.
-- **Empty states:** Hand-drawn illustration of an empty flower pot with a seed, text: "Nothing planted yet — time to grow something wonderful" in `Caveat` at 20px.
+- Footer: Dark warm tone (#3D2B1F), with muted cream text, hand-drawn map 
+  illustration, and ornamental vine border at top edge.
+```
 
-### Example 3: Blog Post Layout
+### Example 2: Mobile App Onboarding Screen
 
-**Generic input:** "Style a long-form article page"
+**Generic input:** "Design an onboarding screen for a nature exploration app"
 
-**Ghibli-styled output:**
-- **Article width:** Max 680px, centered, with `space-3xl` top padding
-- **Title:** `Playfair Display`, 42px, `#5C4425`, `line-height: 1.2`
-- **Meta info:** `Nunito`, 14px, `#9A9484`, with a small botanical ornament separator between author and date
-- **Body text:** `Nunito`, 18px, `#5C4425`, `line-height: 1.7` — slightly more generous than standard for a relaxed reading feel
-- **Pull quotes:** Indented with a left border of 3px in `#C4A265`, background `rgba(196, 162, 101, 0.06)`, text in `Cormorant Garamond` italic at 22px
-- **Images:** Full-width within the text column, `radius-md`, soft vignette, caption in `Caveat` 16px below in `#9A9484`
-- **Horizontal rules:** Replaced with centered botanical SVG ornaments (three small leaves)
-- **Drop cap:** First letter of the article in `Playfair Display` at 64px, floated left, `#4A7A3D`
+**Styled output applying this skill:**
+```
+- Background: Subtle canvas-textured warm cream (#F2E6D0) with 3% warm noise overlay
+- Top 55%: Circular illustration frame (hand-drawn irregular circle border in 
+  #C5A23E, 2px stroke, slightly wobbly path) containing a scene of a cottage 
+  nestled among old-growth trees, rendered in soft watercolor style. Light 
+  filtering through canopy. Moss on stone walls. Smoke curling from chimney.
+
+- Below illustration: 
+  Title: "Discover Hidden Paths" — EB Garamond, 28px, weight 700, color #3D2B1F
+  Body: "Every forest holds secrets for those who wander with wonder." — 
+  Nunito, 16px, weight 400, color #6B5D4F, max-width 280px centered, 
+  line-height 1.65
+
+- Pagination dots: 3 dots, active dot is leaf-shaped SVG in #4A7C72, 
+  inactive dots are circles in #D4C9B8
+
+- CTA Button: "Begin Your Journey →" — background #4A7C72, color #F2E6D0, 
+  border-radius 12px, padding 14px 32px, Nunito 15px weight 600.
+  Tiny leaf SVG before the arrow.
+
+- Bottom safe area: #F2E6D0 with faint vine watermark at 5% opacity
+```
+
+### Example 3: Data Dashboard with Ghibli Aesthetic
+
+**Generic input:** "Style a park visitor analytics dashboard"
+
+**Styled output applying this skill:**
+```
+- Background: #FAF7F2 with paper texture at 3% opacity
+- Sidebar: #3D2B1F with cream text, navigation icons are hand-drawn line 
+  illustrations (a compass, a map, a lantern, a leaf), active item has 
+  warm highlight bar in #C5A23E
+
+- Stat cards: 24px radius, #F2E6D0 fill, shadow 0 4px 20px rgba(107,66,38,0.12)
+  Each card has a tiny watercolor illustration icon (visitors = footprints on 
+  a path, revenue = a treasure chest, satisfaction = a smiling sun).
+  Numbers: Cormorant Garamond, 36px, weight 700, color #3D2B1F
+  Labels: Nunito, 13px, weight 600, color #6B5D4F, letter-spacing 0.06em
+
+- Charts: Line charts use organic, slightly curved interpolation (cardinal spline)
+  — never angular. Line color #4A7C72 with gradient fill fading to transparent.
+  Grid lines: #D4C9B8 at 30% opacity. Axes labels in Nunito 12px #8B7D6F.
+  Data points marked with small circles, not squares or diamonds.
+
+- Table: No harsh grid lines. Rows separated by 1px #E8DFD0 dividers. 
+  Alternating row tint: transparent / rgba(196, 181, 159, 0.08).
+  Header row: Nunito 12px weight 700 uppercase, letter-spacing 0.08em, 
+  color #6B5D4F, bottom border 2px #C5A23E.
+```
 
 ## Implementation Notes
 
 ### CSS Custom Properties Setup
 ```css
 :root {
-  --color-bg-primary: #F5EDD6;
-  --color-bg-secondary: #EDE4CC;
-  --color-green-light: #7DB356;
-  --color-green-mid: #4A7A3D;
-  --color-green-dark: #2D5A28;
-  --color-green-sunny: #A8C44A;
-  --color-green-shaded: #3B6B4A;
-  --color-brown-light: #C4A265;
-  --color-brown-mid: #8B6D3F;
-  --color-brown-dark: #5C4425;
-  --color-stone: #9A9484;
-  --color-terracotta: #B87A54;
-  --color-sky-pale: #C8D8E8;
-  --color-sky-mid: #88B4D4;
-  --color-accent-red: #C45B4A;
-  --color-gold: #E8C547;
+  /* Colors */
+  --ghibli-cream: #F2E6D0;
+  --ghibli-cream-light: #FAF7F2;
+  --ghibli-timber: #6B4226;
+  --ghibli-terracotta: #A0522D;
+  --ghibli-slate: #5C5C52;
+  --ghibli-forest: #3A5F0B;
+  --ghibli-meadow: #6B8E23;
+  --ghibli-leaf: #8FBC3B;
+  --ghibli-sky: #87AECC;
+  --ghibli-sky-white: #F0EDE4;
+  --ghibli-shadow: #7A8B99;
+  --ghibli-teal: #4A7C72;
+  --ghibli-red: #8B3A3A;
+  --ghibli-gold: #C5A23E;
+  --ghibli-dark: #3D2B1F;
+  --ghibli-dark-max: #2D2118;
+  --ghibli-text: #3D2B1F;
+  --ghibli-text-secondary: #6B5D4F;
+  --ghibli-border: #D4C9B8;
   
-  --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
-  --font-body: 'Nunito', 'Quicksand', Verdana, sans-serif;
-  --font-decorative: 'Caveat', 'Patrick Hand', cursive;
+  /* Typography */
+  --font-heading: 'EB Garamond', 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-body: 'Nunito', 'Quicksand', 'Lato', sans-serif;
+  --font-accent: 'Caveat', 'Patrick Hand', cursive;
   
-  --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 40px;
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-xxl: 64px;
   
-  --shadow-soft: 0 4px 16px rgba(92, 68, 37, 0.08);
-  --shadow-medium: 0 8px 32px rgba(92, 68, 37, 0.12);
-  --shadow-warm-glow: 0 0 24px rgba(232, 197, 71, 0.15);
+  /* Radii */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  
+  /* Shadows */
+  --shadow-card: 0 4px 20px rgba(107, 66, 38, 0.12);
+  --shadow-elevated: 0 8px 32px rgba(107, 66, 38, 0.18);
+  --shadow-text: 0 2px 8px rgba(61, 43, 31, 0.3);
 }
 ```
 
-### Recommended Google Fonts Import
+### Background Texture Technique
+Apply a subtle paper texture using CSS pseudo-elements or an SVG noise filter:
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
-```
-
-### Paper Texture Overlay Technique
-```css
-.ghibli-bg {
-  background-color: var(--color-bg-primary);
-  position: relative;
-}
-
-.ghibli-bg::after {
+.ghibli-surface::after {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('data:image/svg+xml,...'); /* inline noise SVG */
-  opacity: 0.04;
-  pointer-events: none;
+  background-image: url("data:image/svg+xml,..."); /* SVG turbulence noise */
+  opacity: 0.03;
   mix-blend-mode: multiply;
+  pointer-events: none;
 }
 ```
+Alternatively, use a semi-transparent warm-tinted noise PNG tile at 3-4% opacity with `mix-blend-mode: multiply`.
 
-Alternatively, use a subtle CSS noise generator or a small tiling paper texture PNG at very low opacity.
+### Recommended Font Loading
+```html
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Nunito:wght@400;600;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+```
 
-### Framework Considerations
+### Animation Guidelines
+- All transitions: `0.25s–0.4s ease` or `cubic-bezier(0.25, 0.1, 0.25, 1)`
+- Hover effects: subtle lift (translateY -2px to -4px) + shadow expansion
+- Page transitions: gentle fade (300ms) or soft slide (400ms)
+- Decorative animations (floating leaves, drifting clouds): very slow (8s–20s), subtle movement (10-30px travel), infinite loop with `ease-in-out`
+- Never use bounce or elastic easing — movement should feel like a gentle breeze, not mechanical
 
-- **Tailwind CSS:** Create a custom theme extending the default config with the above color palette, border radii, and font families. Use `@apply` for component classes. The organic radius values may need arbitrary value syntax: `rounded-[40px]`.
-- **React/Next.js:** Consider using Framer Motion for subtle entrance animations (fade-up with 20px offset, 0.6s duration, ease-out) that feel like elements are gently appearing rather than snapping in.
-- **SVG Decorations:** Maintain a small library of hand-drawn SVG ornaments (vine dividers, leaf accents, botanical corners) as reusable components. These are essential to the aesthetic and shouldn't be omitted.
-- **Image Processing:** If using Next.js Image or similar, apply a CSS filter to photos: `filter: saturate(0.9) sepia(0.08) brightness(1.02) contrast(0.97)` to warm and soften them toward the Ghibli palette.
-- **Animation Principles:** All transitions should be gentle and organic — use `ease` or custom cubic-bezier curves like `cubic-bezier(0.25, 0.46, 0.45, 0.94)`. Duration: 200–400ms for micro-interactions, 600–800ms for page transitions. Nothing should feel snappy or mechanical.
+### Framework-Specific Notes
+- **Tailwind CSS:** Create a custom theme extending the default config with the color/spacing tokens above. Use `@apply` for component classes. The organic shapes will require custom SVG clip-paths or mask utilities.
+- **React/Next.js:** Create a `<GhibliProvider>` theme context. Use CSS Modules or styled-components with the token variables. SVG ornaments should be React components for reusability.
+- **Figma:** Set up a Ghibli Style Library with color styles, text styles, and effect styles matching the tokens. Create ornamental divider and frame components as reusable assets.
+
+### Illustration/Image Guidance
+When generating or sourcing images for this aesthetic:
+- Prefer painterly, hand-rendered styles over photorealism
+- If using AI image generation, prompt for "gouache painting," "watercolor illustration," "Studio Ghibli style," "Hayao Miyazaki background art"
+- Post-process photographs with warm color grading: lift shadows to warm brown, shift highlights to cream, reduce overall saturation by 15-20%, add subtle grain
+- Aspect ratios for hero images: 16:9 or 21:9 for panoramic landscape feel
+- Minimum illustration detail density: include at least 5 distinct texture types visible in any architectural scene
