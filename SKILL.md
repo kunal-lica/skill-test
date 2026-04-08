@@ -1,291 +1,296 @@
 
 
-# Studio Ghibli Watercolor Landscape Painting
+# Studio Ghibli Dreamscape Oil Painting Style
 
-> Enables creation of dreamy, atmospheric landscape artwork in the style of Studio Ghibli-inspired oil/watercolor fan art — lush, luminous natural scenes with soft edges, rich layered skies, and a nostalgic, tranquil mood.
+> Enables creation of lush, atmospheric landscape artwork inspired by Studio Ghibli's visual language, rendered with visible oil/watercolor brushwork, saturated natural palettes, and an overwhelming sense of serene wonder.
 
 ## When to Use This Skill
 
-- When a user requests artwork, illustrations, or UI backgrounds inspired by Studio Ghibli, Hayao Miyazaki, or anime-style pastoral/fantasy landscapes
-- When designing hero images, splash screens, game backgrounds, or digital paintings that require a soft, painterly, nature-centric aesthetic with emotional warmth
-- When generating CSS gradients, color palettes, or design tokens that evoke a hand-painted, watercolor anime atmosphere
+- When a user requests illustration, concept art, or digital painting in a "Studio Ghibli style," "Miyazaki-inspired," or "anime landscape painting" aesthetic
+- When generating CSS/design themes, mood boards, or color palettes evoking nostalgic, pastoral, fantastical environments
+- When building UI themes, game environments, or background art requiring a hand-painted, warm, nature-immersed atmosphere
 
 ## Core Principles
 
-### 1. Luminous Atmospheric Sky as Dominant Element
-The sky occupies 50–70% of the composition and is the primary source of mood. It features layered cumulus and cirrus clouds with visible light diffusion. Clouds are not flat — they have volumetric depth rendered through soft gradients from warm whites (#FFF8E7) to cool lavender-grays (#B8A9C9). The sky transitions from a warm golden horizon (#F4D68C to #E8A854) through soft cerulean (#7FB3D3) to deeper periwinkle-blue (#5B82A6) at the zenith. Light bleeds through cloud edges creating a backlit, glowing effect.
+### 1. Luminous Atmospheric Depth
+The defining trait is deep atmospheric layering — distinct foreground, midground, and background planes separated by aerial perspective (increasingly desaturated blues/purples in the distance). Light doesn't just illuminate; it permeates. Scenes feel like they exist in a perpetual "golden hour" or soft overcast glow. Clouds are never decorative — they are volumetric, monumental, and occupy 40–60% of the composition.
 
-### 2. Lush, Layered Greenery with Depth Stratification
-Vegetation is rendered in distinct depth layers using atmospheric perspective:
-- **Foreground:** Rich, saturated greens (#3D6B2E, #4A7C3F) with visible individual leaf clusters and grass texture, using impasto-like thick strokes
-- **Midground:** Slightly desaturated, bluer greens (#5A8A5E, #6B9B6A) with softer edges and less detail — tree canopies merge into organic masses
-- **Background:** Hazy blue-greens (#7BA88D, #8FB5A0) fading toward atmospheric blue (#9BB8C4), suggesting distant hills or forests
+**Concrete rule:** Background elements shift toward `#8BAEC4` to `#C5D8E8` (hazy blue-grey). Foreground retains full saturation. There must be at least 3 distinct depth planes.
 
-### 3. Warm-Cool Color Temperature Contrast
-The palette constantly juxtaposes warm and cool tones. Sunlit areas lean toward golden yellows and warm greens (#A8C256, #D4E28C). Shadows and recesses use cool blue-violets (#6A7B9E, #8B7BA8). This push-pull creates visual vibrance without harsh saturation. No area is purely one temperature — even the warmest highlight has a cool reflected-light edge, and the coolest shadow has a warm bounce.
+### 2. Overwhelming Green Dominance with Warm Accents
+Vegetation is the protagonist. Greens span an enormous range — from near-black forest shadows (`#1B3A2A`) through vivid midtones (`#4A8C3F`, `#6DB85A`) to sun-kissed highlights (`#A8D86E`, `#D4E8A0`). Warm accent colors — terracotta rooftops, golden light shafts, pale pink/lavender flowers — punctuate but never dominate the green.
 
-### 4. Soft, Diffused Edges with Selective Sharpness
-The overall rendering style uses soft, blended edges reminiscent of wet-on-wet watercolor technique. Hard edges are reserved sparingly for:
-- The silhouette of foreground elements against the sky
-- Architectural details (if present, e.g., a cottage roofline)
-- A few accent grass blades or flower stems in the immediate foreground
+**Palette hierarchy:** 55-65% greens, 20-25% sky blues/whites, 10-15% warm accents (amber, coral, terracotta), 5% dark anchors.
 
-Everything else — cloud boundaries, tree canopy edges, distant hills — should feel like they're dissolving into the atmosphere.
+### 3. Visible, Expressive Brushwork
+This is NOT clean digital art. Brush strokes must remain visible — thick impasto for foliage and clouds, softer blending for skies and water. Texture is organic and irregular. Trees are not leaf-by-leaf detailed; they are impressionistic masses of color with deliberate individual stroke marks suggesting leaves. This creates energy and life.
 
-### 5. Nostalgic, Pastoral Subject Matter
-Scenes depict idealized natural landscapes: rolling green hills, meadows, rivers, country paths, or forest clearings. If structures appear, they are small, organic, and integrated into the landscape (thatched cottages, wooden bridges, stone walls). No modern or industrial elements. The world feels unpolluted, timeless, and gently inhabited.
+**Concrete rule:** No perfectly smooth gradients. All surfaces should show directional brushwork. Foliage uses dabs/stipples of 3-5 green tones overlapping. Sky uses broad horizontal or sweeping curved strokes.
 
-### 6. High-Key Value Structure with Rich Midtones
-The overall value range skews bright (high-key). Deep darks are rare and only appear in small accents (tree trunks, deep foliage recesses). The majority of the image lives in the light-to-mid value range (60–90% brightness). This creates the characteristic "glowing" Ghibli quality. Shadows are colorful, never gray or black — a shadow on grass might be #3B6848 rather than a darkened green.
+### 4. Monumental Nature, Intimate Human Scale
+Architecture and human elements are small relative to the natural environment. A cottage, path, or figure occupies no more than 10-15% of the frame. Nature dwarfs civilization — massive trees, vast skies, rolling hills create a sense of awe. But the human elements, though small, are warm and inviting: glowing windows, winding paths, hanging laundry.
 
-### 7. Visible Brushwork and Painterly Texture
-The surface should read as hand-painted. Brushstrokes are visible especially in:
-- Cloud forms (broad, sweeping, directional strokes following cloud curvature)
-- Grass and foliage (short dabs and flicks suggesting organic growth)
-- Water reflections (horizontal dragged strokes)
+### 5. Soft Diffused Lighting with Strategic Bright Punches
+Overall illumination is soft and diffused (overcast or late-afternoon quality). Hard shadows are rare. However, 1-2 areas per composition feature intense brightness — a gap in clouds, sun on a meadow, light reflecting off water — creating focal points. These bright areas use near-white yellows (`#FFF8DC`, `#FFFACD`) surrounded by warm haloes.
 
-This is NOT photorealistic rendering. It's NOT flat digital illustration either. It occupies the space between — impressionistic enough to feel handmade, detailed enough to feel immersive.
-
-### 8. Single Dominant Light Source with Global Illumination Feel
-Light typically comes from a low angle (golden hour positioning, 15–30° above horizon) creating long, warm highlights across the landscape. Despite the single dominant source, the overall scene feels bathed in ambient light — as if the atmosphere itself is glowing. This is achieved by keeping shadow areas relatively bright and filled with reflected sky color.
+### 6. Romantic Compositional Flow
+Compositions use flowing, curvilinear lines — winding rivers, rolling hills, arcing tree branches, sweeping cloud formations. Straight lines and sharp geometric shapes are almost entirely absent. The eye is guided along S-curves and gentle diagonals. The horizon line is typically placed at the lower third, giving the sky dominance.
 
 ## Detailed Specifications
 
-### Visual Language / Style Tokens
+### Color Palette (Primary)
 
-#### Color Palette
+| Role | Hex | Name | Usage |
+|------|-----|------|-------|
+| Deep Forest Shadow | `#1B3A2A` | Ghibli Midnight Green | Tree shadows, darkest foliage |
+| Rich Foliage | `#2D6B3F` | Totoro Green | Primary tree/bush body color |
+| Vibrant Leaf | `#4A8C3F` | Meadow Heart | Sunlit mid-range vegetation |
+| Bright Canopy | `#6DB85A` | Kodama Green | Light-struck leaves, grass highlights |
+| Sun-kissed Foliage | `#A8D86E` | Arrietty Lime | Brightest vegetation highlights |
+| Pale Growth | `#D4E8A0` | Morning Dew | Extreme foliage highlights near light source |
+| Sky Blue | `#7AB8D6` | Laputa Sky | Clear sky midtone |
+| Haze Blue | `#8BAEC4` | Distance Veil | Atmospheric perspective on far objects |
+| Pale Sky | `#C5D8E8` | Horizon Mist | Distant mountains/sky near horizon |
+| Cloud White | `#F0F4F8` | Cumulus Cream | Cloud highlights |
+| Cloud Shadow | `#B8C4D0` | Nimbus Grey | Cloud undersides and soft shadows |
+| Warm Light | `#FFF8DC` | Golden Hour | Bright light source areas |
+| Amber Glow | `#E8B84D` | Ponyo Amber | Warm architectural accents, lanterns |
+| Terracotta | `#C4734A` | Kiki's Roof | Rooftops, paths, earth tones |
+| Soft Pink | `#E8A0B0` | Blossom Blush | Flowers, subtle warm accents |
+| Water Reflection | `#3A7CA5` | Spirited Teal | Rivers, ponds, reflective surfaces |
+| Earth Dark | `#5C4033` | Forest Floor | Trunks, earth, dark grounding elements |
 
-**Sky Colors:**
-| Role | Hex | Description |
-|------|-----|-------------|
-| Horizon Glow | `#F4D68C` | Warm golden base at horizon line |
-| Horizon Warm | `#E8A854` | Deeper amber near sun position |
-| Mid-Sky Blue | `#7FB3D3` | Soft cerulean transitional blue |
-| Upper Sky | `#5B82A6` | Deeper periwinkle-blue at zenith |
-| Cloud Highlight | `#FFF8E7` | Warm off-white, sunlit cloud tops |
-| Cloud Shadow | `#B8A9C9` | Lavender-gray cloud undersides |
-| Cloud Mid | `#D6CBDE` | Soft purple-gray mid-tone |
+### Sky Specifications
+- **Cloud coverage:** 50-80% of sky area, billowing cumulus formations
+- **Cloud rendering:** Built in 4 value steps — deep shadow (`#9AAAB8`), mid shadow (`#B8C4D0`), light body (`#E0E8EE`), bright highlight (`#F0F4F8` to `#FFFFFF`)
+- **Sky gradient:** Upper sky deeper (`#5A9CC0`), transitioning to pale near horizon (`#D8E8F0`), often with warm yellow-pink at the very horizon line (`#F0E0C8`)
+- **Cloud edges:** Soft and diffused on shadow side, crisper (but still painterly) on sunlit edges
 
-**Vegetation Colors:**
-| Role | Hex | Description |
-|------|-----|-------------|
-| Foreground Dark Green | `#3D6B2E` | Deep saturated foliage |
-| Foreground Mid Green | `#4A7C3F` | Primary leaf green |
-| Sunlit Green | `#A8C256` | Warm yellow-green highlights |
-| Bright Highlight Green | `#D4E28C` | Lightest grass in direct sun |
-| Midground Green | `#5A8A5E` | Slightly cooled, less saturated |
-| Background Green | `#7BA88D` | Hazy, atmospheric distance |
-| Far Distance | `#9BB8C4` | Blue-green atmospheric fade |
+### Foliage Rendering Technique
+1. **Block in** large masses with mid-green (`#4A8C3F`)
+2. **Add shadow masses** with dark green (`#1B3A2A` to `#2D6B3F`), painted as broad strokes following branch structure
+3. **Layer highlight dabs** — individual visible brush marks in `#6DB85A` and `#A8D86E`, placed where light would hit canopy tops
+4. **Final bright accents** — sparse, small marks of `#D4E8A0` at the very top/light-facing edges
+5. **Trunk and branch structure** barely visible through foliage — just dark linear suggestions (`#3A2E1F`)
+6. **Minimum green tones per tree mass:** 4 distinct values
 
-**Accent & Shadow Colors:**
-| Role | Hex | Description |
-|------|-----|-------------|
-| Cool Shadow | `#6A7B9E` | Blue-violet shadow tone |
-| Warm Shadow | `#8B7BA8` | Purple-tinted deep shadow |
-| Earth Tone | `#A08060` | Path/dirt/stone warm brown |
-| Wildflower Accent | `#E85A7A` | Small pops of pink-red |
-| Wildflower Yellow | `#F2D44F` | Small pops of warm yellow |
-| Water Reflection | `#6AAFC4` | Cool blue water surface |
-| Tree Trunk | `#5C4A3A` | Warm dark brown, deepest value used |
+### Water Rendering
+- Base tone: `#3A7CA5` to `#5AA0C4`
+- Horizontal brush strokes suggesting ripples
+- Reflections are softer, slightly darker, and more blue-shifted versions of objects above
+- 2-3 bright white/pale yellow streaks for specular highlights from sky
 
-#### Composition Grid
-- **Horizon placement:** Lower third (25–35% from bottom) to emphasize sky dominance
-- **Rule of thirds:** Key focal elements (a lone tree, a path vanishing point, a building) placed at intersection points
-- **Depth layers:** Minimum 3 distinct planes (foreground texture → midground subject → background atmosphere)
-- **Aspect ratio:** Commonly 16:9 or 3:2 (widescreen landscape orientation)
+### Compositional Templates
 
-#### Texture & Rendering
-- **Brush opacity:** Base strokes at 70–90% opacity; blending passes at 20–40%
-- **Stroke direction in sky:** Broad horizontal sweeps, subtly curved to follow cloud mass curvature
-- **Stroke direction in grass:** Short upward flicks (3–8px equivalent) at slight random angles
-- **Edge softness:** 80% of edges soft/lost; 15% medium; 5% hard/sharp
-- **Grain/paper texture:** Subtle cold-press watercolor paper grain at 5–10% overlay opacity across the entire piece
+**Template A — Valley Overlook:**
+- Lower third: lush foreground foliage (dark, saturated, detailed)
+- Middle third: rolling hills/valley with small architecture, river winding through
+- Upper third: dramatic cloud-filled sky with light breaking through
 
-#### Typography (if used for titles/UI overlaying this style)
-- **Font family:** Rounded sans-serif or soft serif (e.g., `Quicksand`, `Nunito`, or a calligraphic Japanese-inspired face)
-- **Color:** `#FFFFFF` with soft drop shadow `rgba(90, 70, 50, 0.3)` offset `0 2px 8px`
-- **Weight:** 300–400 (light to regular)
-- **No hard geometric fonts** — everything should feel organic
+**Template B — Forest Interior:**
+- Canopy framing top 40% with dappled light filtering through
+- Central path or clearing drawing eye to a bright midground focal point
+- Ground plane rich with undergrowth texture, warm earth tones
 
-### Component Patterns
-
-#### Pattern 1: Layered Sky Gradient (CSS Approximation)
-```css
-.ghibli-sky {
-  background: linear-gradient(
-    180deg,
-    #5B82A6 0%,
-    #7FB3D3 30%,
-    #B8D8E8 50%,
-    #E8D5A8 75%,
-    #F4D68C 90%,
-    #E8A854 100%
-  );
-}
-```
-
-#### Pattern 2: Vegetation Depth Layers
-When constructing a scene programmatically (e.g., parallax layers in a game or website):
-- **Layer 5 (farthest):** Sky gradient — no geometry, pure color
-- **Layer 4:** Distant mountains/hills — `#9BB8C4` silhouettes, 5% opacity grain, no detail
-- **Layer 3:** Mid-distance tree line — `#7BA88D` to `#5A8A5E`, soft organic silhouette edges, minimal interior detail
-- **Layer 2:** Main subject area — `#4A7C3F` dominant, individual tree shapes visible, shadows in `#6A7B9E`
-- **Layer 1 (nearest):** Foreground grass/flowers — `#3D6B2E` to `#D4E28C`, highest detail, sharpest edges, wildflower accents
-
-#### Pattern 3: Cloud Rendering Approach
-1. Block in large cloud masses with `#D6CBDE` at 60% opacity
-2. Add highlights on top edges and sunward sides with `#FFF8E7` at 80% opacity
-3. Deepen undersides with `#B8A9C9` at 50% opacity
-4. Blend all edges outward with a large soft brush
-5. Add a few slightly harder highlight strokes on the most sunlit cloud tops for definition
-6. Never outline clouds — they emerge from value/color shifts only
+**Template C — Coastal/Water Scene:**
+- Water occupying lower 30-40%
+- Lush green hillside or cliff on one side
+- Expansive sky with towering clouds
 
 ### Do's and Don'ts
 
 **Do:**
-- Use colorful shadows (blues, purples, teals) instead of darkened local colors
-- Keep the value range predominantly in the upper 50% (bright, airy feeling)
-- Let edges dissolve — especially where sky meets distant land
-- Include small living details: a bird silhouette, wildflowers, a winding path
-- Layer translucent color washes to build depth (like actual watercolor technique)
-- Make the light source feel warm and low-angled (golden hour)
-- Include at least 3 distinct depth planes for spatial richness
-- Use analogous color harmony within each depth layer, with warm-cool contrast between layers
+- Use at minimum 6-8 distinct green values across any vegetation scene
+- Make clouds feel three-dimensional with light/shadow modeling
+- Include at least one organic S-curve compositional element (river, path, branch, cloud edge)
+- Leave visible, confident brush strokes — especially in foliage and clouds
+- Include tiny, charming human-scale details (a mailbox, a bicycle, a clothesline)
+- Shift distant objects toward cool blue-grey for atmospheric perspective
+- Use warm edge lighting on objects facing the light source
+- Make skies dynamic — never flat or uniform gradient
+- Ground the scene with darker values at the absolute bottom edge
+- Include environmental storytelling elements (a garden, a dock, a window with light)
 
 **Don't:**
-- Use pure black (`#000000`) anywhere in the image — darkest value should be around `#3A3025`
-- Use hard, uniform outlines around shapes (this is painterly, not cel-shaded anime)
-- Over-saturate colors — the palette is rich but muted, like pigment mixed with white
-- Make the scene feel empty — even minimal compositions should have layered environmental detail
-- Use symmetrical compositions — nature is organic; offset focal points and vary horizon elements
-- Apply uniform textures — vary brushstroke density (loose in atmosphere, tighter in focal areas)
-- Include modern technology, power lines, cars, or urban elements
-- Make shadows neutral gray — every shadow must carry color temperature information
-- Render photographically — maintain visible brushwork at all zoom levels
+- Use flat, digitally-smooth gradients or airbrushed surfaces
+- Make architecture the primary visual element — nature dominates
+- Use harsh, high-contrast shadows (this is soft-light world)
+- Include modern/industrial elements (cars, power lines, skyscrapers)
+- Use desaturated or grey-heavy palettes — this world is alive with color
+- Apply photorealistic rendering — maintain painterly abstraction
+- Use pure black (`#000000`) anywhere — darkest darks should be `#1A1A2E` or chromatic dark greens/browns
+- Create symmetrical compositions — organic asymmetry is essential
+- Make the sky a flat single color — it must have clouds, gradient variation, and atmosphere
+- Use harsh outlines or cell-shading — forms emerge from color masses, not lines
 
 ## Examples
 
-### Example 1: Hero Section Background for a Mindfulness App
+### Example 1: CSS Theme Variables for a Ghibli-Inspired Web Application
 
-**User Request:** "Create a calming background for a meditation app landing page."
-
-**Application of Skill:**
-- Compose a wide meadow scene at 16:9 aspect ratio with horizon at 30% from bottom
-- Sky dominates upper 70%: gradient from `#5B82A6` top → `#7FB3D3` → `#F4D68C` at horizon
-- Soft cumulus clouds rendered with `#FFF8E7` highlights and `#B8A9C9` shadows, edges fully dissolved
-- Rolling green hills in midground using `#5A8A5E` → `#7BA88D` gradient with soft undulating silhouette
-- Foreground meadow with `#4A7C3F` grass and scattered `#F2D44F` wildflowers, loose brush flicks for grass texture
-- A single tree slightly left of center, branches organic and spreading, canopy rendered as clustered soft dabs of `#3D6B2E` and `#A8C256`
-- Overall watercolor paper grain overlay at 7% opacity
-- Light source from lower-right, casting long warm highlights (`#D4E28C`) across grass tops
-
-**Result:** A painting that feels like a still frame from *My Neighbor Totoro* — warm, inviting, peaceful, and unmistakably hand-painted.
-
-### Example 2: CSS Design Tokens for a Ghibli-Themed Website
-
-**User Request:** "Give me a design system color palette and styling tokens for a Studio Ghibli fan site."
-
-**Application of Skill:**
 ```css
 :root {
-  /* Sky Palette */
-  --ghibli-sky-deep: #5B82A6;
-  --ghibli-sky-mid: #7FB3D3;
-  --ghibli-sky-light: #B8D8E8;
-  --ghibli-horizon-warm: #F4D68C;
-  --ghibli-horizon-deep: #E8A854;
+  /* Primary palette */
+  --ghibli-forest-deep: #1B3A2A;
+  --ghibli-forest-mid: #2D6B3F;
+  --ghibli-meadow: #4A8C3F;
+  --ghibli-leaf-bright: #6DB85A;
+  --ghibli-leaf-highlight: #A8D86E;
   
-  /* Nature Palette */
-  --ghibli-green-dark: #3D6B2E;
-  --ghibli-green-mid: #4A7C3F;
-  --ghibli-green-light: #A8C256;
-  --ghibli-green-highlight: #D4E28C;
-  --ghibli-green-distant: #7BA88D;
+  /* Sky & atmosphere */
+  --ghibli-sky: #7AB8D6;
+  --ghibli-sky-pale: #C5D8E8;
+  --ghibli-cloud: #F0F4F8;
+  --ghibli-cloud-shadow: #B8C4D0;
   
-  /* Accent Colors */
-  --ghibli-flower-pink: #E85A7A;
-  --ghibli-flower-yellow: #F2D44F;
-  --ghibli-earth: #A08060;
-  --ghibli-water: #6AAFC4;
+  /* Warm accents */
+  --ghibli-amber: #E8B84D;
+  --ghibli-terracotta: #C4734A;
+  --ghibli-blossom: #E8A0B0;
+  --ghibli-golden-light: #FFF8DC;
   
-  /* Shadows & Depth */
-  --ghibli-shadow-cool: #6A7B9E;
-  --ghibli-shadow-warm: #8B7BA8;
-  --ghibli-cloud-shadow: #B8A9C9;
-  --ghibli-darkest: #3A3025;
+  /* Neutrals */
+  --ghibli-earth: #5C4033;
+  --ghibli-dark: #1A2A1E;
   
   /* Surfaces */
-  --ghibli-cloud-white: #FFF8E7;
-  --ghibli-paper: #FDF6E3;
+  --ghibli-bg-primary: #F0F4F0;
+  --ghibli-bg-card: #FAFCFA;
+  --ghibli-text-primary: #1A2A1E;
+  --ghibli-text-secondary: #3A5A3A;
+  
+  /* Spacing (organic feel — avoid rigidity) */
+  --space-xs: 6px;
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 36px;
+  --space-xl: 56px;
+  
+  /* Border radius — always soft, never sharp */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  /* Shadows — soft and warm, never harsh */
+  --shadow-soft: 0 4px 20px rgba(27, 58, 42, 0.08);
+  --shadow-medium: 0 8px 32px rgba(27, 58, 42, 0.12);
+  --shadow-glow: 0 0 24px rgba(232, 184, 77, 0.2);
   
   /* Typography */
-  --ghibli-font-primary: 'Quicksand', 'Nunito', sans-serif;
-  --ghibli-font-weight: 400;
-  --ghibli-text-color: #3A3025;
-  --ghibli-text-light: #FFF8E7;
-  
-  /* Borders & Radii */
-  --ghibli-radius-sm: 12px;
-  --ghibli-radius-md: 20px;
-  --ghibli-radius-lg: 32px;
-  
-  /* Shadows */
-  --ghibli-shadow-soft: 0 4px 24px rgba(107, 123, 158, 0.2);
-  --ghibli-shadow-glow: 0 2px 16px rgba(244, 214, 140, 0.35);
+  --font-heading: 'Garamond', 'Georgia', serif;
+  --font-body: 'Source Sans Pro', 'Segoe UI', sans-serif;
+  --font-accent: 'Caveat', cursive;
 }
 
+/* Card component — like a Ghibli cottage window */
 .ghibli-card {
-  background: var(--ghibli-paper);
-  border-radius: var(--ghibli-radius-md);
-  box-shadow: var(--ghibli-shadow-soft);
-  border: 1px solid rgba(168, 194, 86, 0.2);
-  font-family: var(--ghibli-font-primary);
-  color: var(--ghibli-text-color);
+  background: var(--ghibli-bg-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(74, 140, 63, 0.12);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
-.ghibli-button {
-  background: linear-gradient(135deg, var(--ghibli-green-mid), var(--ghibli-green-light));
-  color: var(--ghibli-text-light);
+.ghibli-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+/* Button — warm inviting action */
+.ghibli-btn-primary {
+  background: linear-gradient(135deg, var(--ghibli-meadow), var(--ghibli-leaf-bright));
+  color: white;
   border: none;
-  border-radius: var(--ghibli-radius-sm);
-  padding: 12px 28px;
-  font-family: var(--ghibli-font-primary);
+  border-radius: var(--radius-full);
+  padding: var(--space-sm) var(--space-lg);
+  font-family: var(--font-body);
   font-weight: 600;
-  box-shadow: var(--ghibli-shadow-glow);
+  box-shadow: 0 4px 16px rgba(74, 140, 63, 0.25);
   transition: all 0.3s ease;
 }
 
-.ghibli-button:hover {
-  background: linear-gradient(135deg, var(--ghibli-green-light), var(--ghibli-horizon-warm));
-  box-shadow: 0 4px 20px rgba(244, 214, 140, 0.5);
+.ghibli-btn-primary:hover {
+  box-shadow: 0 6px 24px rgba(74, 140, 63, 0.35);
   transform: translateY(-1px);
 }
 ```
 
+### Example 2: Art Direction Prompt for Image Generation
+
+**Generic input:** "A house in a field"
+
+**Ghibli Dreamscape styled output:**
+"Oil painting of a small weathered cottage with a terracotta roof nestled among rolling emerald hills. The cottage has warm amber light glowing from its windows and a small garden with pale pink flowers. Towering cumulus clouds fill 60% of the sky, modeled with soft blue-grey shadows and bright cream highlights. A winding dirt path leads from the foreground through knee-high wildflowers toward the cottage. Dense forest with visible impressionistic brushwork in 5+ green values borders the scene on the left. Atmospheric perspective shifts the distant hills to hazy blue-grey. Soft golden-hour lighting from the right. Visible oil paint texture throughout. No hard edges. Studio Ghibli inspired, Hayao Miyazaki aesthetic. Aspect ratio 16:10."
+
+### Example 3: Tailwind Config for Ghibli-Themed Application
+
+```javascript
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        ghibli: {
+          forest: { deep: '#1B3A2A', mid: '#2D6B3F', DEFAULT: '#4A8C3F' },
+          leaf: { DEFAULT: '#6DB85A', bright: '#A8D86E', pale: '#D4E8A0' },
+          sky: { deep: '#5A9CC0', DEFAULT: '#7AB8D6', pale: '#C5D8E8' },
+          cloud: { shadow: '#B8C4D0', DEFAULT: '#E0E8EE', bright: '#F0F4F8' },
+          amber: { DEFAULT: '#E8B84D', glow: '#FFF8DC' },
+          terracotta: '#C4734A',
+          blossom: '#E8A0B0',
+          water: '#3A7CA5',
+          earth: '#5C4033',
+        },
+      },
+      borderRadius: {
+        'ghibli-sm': '8px',
+        'ghibli-md': '14px',
+        'ghibli-lg': '24px',
+      },
+      boxShadow: {
+        'ghibli-soft': '0 4px 20px rgba(27, 58, 42, 0.08)',
+        'ghibli-medium': '0 8px 32px rgba(27, 58, 42, 0.12)',
+        'ghibli-warm': '0 0 24px rgba(232, 184, 77, 0.2)',
+      },
+      fontFamily: {
+        'ghibli-heading': ['Garamond', 'Georgia', 'serif'],
+        'ghibli-body': ['Source Sans Pro', 'Segoe UI', 'sans-serif'],
+        'ghibli-accent': ['Caveat', 'cursive'],
+      },
+      backgroundImage: {
+        'ghibli-sky': 'linear-gradient(180deg, #5A9CC0 0%, #7AB8D6 40%, #C5D8E8 75%, #F0E0C8 100%)',
+        'ghibli-meadow': 'linear-gradient(180deg, #A8D86E 0%, #4A8C3F 50%, #2D6B3F 100%)',
+      },
+    },
+  },
+};
+```
+
 ## Implementation Notes
 
-### For Digital Painting (Procreate, Photoshop, Krita, etc.)
-- Start with a textured canvas layer simulating cold-press watercolor paper (140lb grain)
-- Work in layers corresponding to depth planes — paint back-to-front
-- Use a soft round brush with opacity tied to pressure for blending sky areas
-- Use a textured flat brush (bristle/chalk style) for foliage and grass
-- Keep a separate layer for the finest foreground details to preserve sharpness
-- Final pass: flatten and add a subtle warm color grade overlay (multiply layer at 3–5% with `#F4D68C`)
+### For Digital Art / Image Generation
+- When using Stable Diffusion, Midjourney, or DALL-E: include "oil painting texture," "visible brushwork," "Studio Ghibli," "Hayao Miyazaki," "pastoral," "atmospheric perspective," and "cumulus clouds" in prompts
+- Negative prompts should exclude: "photorealistic," "sharp edges," "flat colors," "cell shading," "anime lineart," "urban," "modern"
+- Best aspect ratios: 16:10 (landscape panoramic), 4:3 (classic frame), 3:4 (portrait with tall sky)
 
-### For Generative AI Image Prompts
-Key terms to include: "Studio Ghibli inspired," "watercolor oil painting," "pastoral landscape," "golden hour lighting," "atmospheric perspective," "lush green meadow," "cumulus clouds," "painterly brushstrokes," "nostalgic," "Hayao Miyazaki," "soft diffused light"
+### For Web/UI Design
+- This aesthetic translates best to illustration-heavy landing pages, storytelling sites, game UIs, and portfolio sites
+- Use actual painted/illustrated hero images rather than trying to achieve the look purely through CSS
+- Background textures: use subtle paper/canvas texture overlays at 3-8% opacity to reinforce the painted feel
+- Animations should be slow and organic — ease-in-out curves, 400-600ms durations, gentle float/sway effects
+- Avoid grid-heavy layouts; prefer asymmetric, organic arrangements where possible
+- Typography: prefer serif or humanist sans-serif fonts; avoid geometric/mono fonts which break the organic feel
 
-Key terms to avoid: "photorealistic," "HDR," "sharp focus," "urban," "dark," "gritty," "neon," "cel-shaded," "flat color"
-
-### For Web/UI Implementation
-- Use the CSS gradient patterns as hero section backgrounds behind semi-transparent white content areas
-- Actual painted assets should be exported at 2x resolution minimum to preserve brushwork texture
-- Compress with caution — JPEG quality no lower than 85% to avoid destroying subtle gradient transitions
-- Consider adding a CSS `backdrop-filter: blur(2px)` on overlaying content cards for depth integration
-- For parallax effects, separate the scene into the 5 depth layers described above and assign different scroll speeds (Layer 5 = 0, Layer 1 = 1.0)
+### For Game Development / Environment Art
+- Skyboxes should use the multi-stop gradient specified in Sky Specifications
+- Foliage shaders should use a minimum of 4 color stops with vertex color variation
+- Lighting should be predominantly ambient/indirect with a single warm directional light
+- Post-processing: slight bloom (threshold 0.8, intensity 0.3), subtle chromatic warmth shift, light film grain
+- LOD strategy: distant objects get bluer and less saturated (multiply with `#8BAEC4` at 20-40% based on distance)
 
 ### Performance Considerations
-- Full painted backgrounds at 1920×1080 typically run 300–800KB as optimized JPEG
-- For responsive design, prepare 3 breakpoints: 640w, 1280w, 1920w
-- Use `<picture>` element with WebP primary and JPEG fallback
-- Preload hero background images for perceived performance
+- The rich, layered quality of this style means background images will be large — use WebP/AVIF formats and lazy loading
+- CSS gradients can approximate sky backgrounds at fraction of the file size of raster images
+- For animation-heavy implementations, prefer CSS transforms over layout-triggering properties
+- Canvas/WebGL implementations should target 3-5 parallax depth layers for the atmospheric depth effect
